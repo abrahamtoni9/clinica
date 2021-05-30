@@ -1,0 +1,11 @@
+#Evita que se liste el contenido del sistema
+Options All -Indexes 
+
+#vamos a habilitar el modulo para habilitar las url amigables
+RewriteEngine On 
+
+#habilitamos la regla de rescritura 
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?url=$1
+
+#http://localhost/clinica/index.php?url=seleccionar , esta url remplaza por la url
+#http://localhost/clinica/seleccionar
