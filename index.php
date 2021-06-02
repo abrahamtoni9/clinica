@@ -5,4 +5,4 @@
     require_once("Modelo/secretariaM.php");
 
     $plantilla = new Plantilla();
-    $plantilla -> llamarPlantilla();    
+    $plantilla -> llamarPlantilla();
