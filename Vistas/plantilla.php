@@ -117,7 +117,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="Vistas/dist/js/demo.js"></script>
 <script>
-  $(document).ready(function () {
+  $(document).ready(function () 
+  {
     $('.sidebar-menu').tree()
   })
 </script>
