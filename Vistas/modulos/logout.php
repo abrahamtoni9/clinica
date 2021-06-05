@@ -4,5 +4,5 @@ session_destroy();
 
 
 echo    '<script>
-window.location = "ingreso-secretaria"
-</script>';
+            window.location = "ingreso-secretaria"
+        </script>';
